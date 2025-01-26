@@ -75,10 +75,10 @@ def distance(a, b):
     """
     dimensions = len(a)
     
-    _sum = 0
+    sum = 0
     for dimension in xrange(dimensions):
         difference_sq = (a[dimension] - b[dimension]) ** 2
-        _sum += difference_sq
+        sum += difference_sq
     return sqrt(_sum)
 
 
